@@ -6,7 +6,7 @@ const int DHT_PIN = 15;
 
 DHTesp dhtSensor;
 
-const char* serverAddress = "http://localhost:8080/data/test/1";
+const char* serverAddress = "http://localhost:8090/api/v1/dht22/1";
 const char* authToken = "";
 
 void setup() {
